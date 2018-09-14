@@ -27,13 +27,13 @@ function accessElementInArray(array, index)
 return array[index];
 }
 
-function destructivelyRemoveElementFromBeginningofArray(array)
+function destructivelyRemoveElementFromBeginningOfArray(array)
 {  
  array.shift();
  return array;
 }
 
-function removeElementFromBeginningofArray(array)
+function removeElementFromBeginningOfArray(array)
 {
   return array.slice(1);
 }
